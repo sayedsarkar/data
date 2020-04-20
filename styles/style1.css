@@ -12,7 +12,6 @@ body {
 	background-color:#fff;
 	width:100%;
 	max-width:1024px;
-	min-width:300px;
 	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
 }
 a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
