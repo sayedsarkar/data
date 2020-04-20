@@ -1,0 +1,159 @@
+﻿@import url("layout.css");
+
+body {
+	font-family: SolaimanLipi, Vrinda, SutonnyMJ, Georgia, Tahoma;
+	background-image: url("../images/background-tile.gif");
+	background-repeat: repeat;
+}
+#container {
+	border-right: 2px solid #8c8c8c;
+	border-bottom: 2px solid #8c8c8c;
+	border-left: 2px solid #8c8c8c;
+	background-color:#fff;
+	width:100%;
+	max-width:1024px;
+	min-width:480px;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border:none;
+	}
+#header {
+	width: 100%;
+}
+#masthead {
+	text-align: center;
+	background-color: #fff;
+	min-height:120px;
+}
+#navigation {
+	border-top: 1px solid #808080;
+	border-bottom: 1px solid #808080;
+	background-color: #008080;
+}
+html>body #navigation {
+	overflow: hidden;
+}
+#column_l {
+	width: 98%;
+	padding: 15px;
+	background-color: #fff;
+}
+html>body #column_l {
+	width: 96%;
+	padding: 0 15px;
+	background-color: #fff;
+}
+#column_r {
+	width: 98%;
+	padding: 15px 10px;
+	background-color: #fff;
+}
+html>body #column_r {
+	width: 96%;
+	padding: 15px 10px;
+	background-color: #fff;
+	padding-top: 5px;
+}
+#footer {
+	text-align: center;
+	padding-bottom: 10px;
+}
+html>body #footer {
+	text-align: center;
+	padding-bottom: 0;
+	font-size:small;
+}
+/* Header */
+#header ul {
+	list-style-type: none;
+	width: 100%;
+	margin: 0;
+	padding: 0px;
+}
+#header li {
+	float: right;
+	padding-right: 15px;
+}
+#header a {
+	text-decoration: none;
+	display: block;
+	padding-top: 5px;
+	font-size: small;
+}
+#header a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+	opacity:0.5;
+}
+/* Masthead */
+#masthead h1 {
+	color: maroon;
+	font-size: xx-large;
+	margin-bottom: 0;
+}
+#masthead h3 {
+	color: silver;
+	margin-top: 0.5em;
+	font-size: small;
+}
+/* Navigation */
+#navigation ul {
+	list-style-type: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+#navigation li {
+	float: left;
+}
+#navigation a {
+	text-decoration: none;
+	color: #FFFFFF;
+	display: block;
+	padding: 5px;
+	border: 1px solid #cdc;
+	font-size: small;
+}
+#navigation a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+	border: 1px solid white;
+	background-color: red;
+}
+/* Right Column */
+/* Site typography */
+h1 {
+	font-size: xx-large;
+	color: #c77;
+}
+h2 {
+	font-size: x-large;
+	color: teal;
+}
+h3 {
+	font-size: large;
+	color: #FF0066;
+}
+h4 {
+	font-size: medium;
+	color: #CC3300;
+}
+p {
+	font-size: medium;
+	text-align:justify;
+}
+/* Footer */
+#footer p {
+	font-size: small;
+	text-align:center;
+}
+/* Links */
+a {
+	color: blue;
+	text-decoration: none;
+}
+a:hover {
+	color: #9c9;
+	text-decoration: underline;
+}
