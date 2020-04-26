@@ -40,6 +40,10 @@ html>body #navigation {
 	padding: 15px;
 	background-color: #fff;
 }
+#column_l p {
+width: 95%;
+	padding: 15px;
+}
 html>body #column_l {
 	padding: 0 15px;
 	background-color: #fff;
