@@ -34,22 +34,18 @@ html>body #navigation {
 	overflow: hidden;
 }
 #column_l {
-	width: 92%;
 	padding: 15px;
 	background-color: #fff;
 }
 html>body #column_l {
-	width: 90%;
 	padding: 0 15px;
 	background-color: #fff;
 }
 #column_r {
-	width: 92%;
 	padding: 15px 10px;
 	background-color: #fff;
 }
 html>body #column_r {
-	width: 90%;
 	padding: 15px 10px;
 	background-color: #fff;
 	padding-top: 5px;
