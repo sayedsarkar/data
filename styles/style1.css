@@ -14,6 +14,9 @@ body {
 	max-width:1024px;
 	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
 }
+img {
+	max-width:75%;
+}
 a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
 	border:none;
 	}
@@ -41,9 +44,7 @@ html>body #column_l {
 	padding: 0 15px;
 	background-color: #fff;
 }
-#html>body #column_l img {
-	max-width:300px;
-}
+
 #column_r {
 	padding: 15px 10px;
 	background-color: #fff;
