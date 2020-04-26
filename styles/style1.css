@@ -15,7 +15,7 @@ body {
 	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
 }
 img {
-	max-width:75%;
+	max-width:300px;
 }
 a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
 	border:none;
