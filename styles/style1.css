@@ -16,6 +16,7 @@ body {
 }
 img {
 	max-width:300px;
+max-height:300px;
 }
 a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
 	border:none;
