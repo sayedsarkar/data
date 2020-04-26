@@ -41,7 +41,7 @@ html>body #column_l {
 	padding: 0 15px;
 	background-color: #fff;
 }
-html>body #column_l img {
+#html>body #column_l img {
 	max-width:300px;
 }
 #column_r {
