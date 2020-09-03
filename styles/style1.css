@@ -38,22 +38,22 @@ html>body #navigation {
 	overflow: hidden;
 }
 #column_l {
-	width: 98%;
+	width: 95%;
 	padding: 15px;
 	background-color: #fff;
 }
 html>body #column_l {
-	width: 96%;
+	width: 93%;
 	padding: 0 15px;
 	background-color: #fff;
 }
 #column_r {
-	width: 98%;
+	width: 95%;
 	padding: 15px 10px;
 	background-color: #fff;
 }
 html>body #column_r {
-	width: 96%;
+	width: 93%;
 	padding: 15px 10px;
 	background-color: #fff;
 	padding-top: 5px;
